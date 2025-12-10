@@ -19,18 +19,16 @@ The project is structured to be clean, readable, and easy to extend. It handles 
 ```text
 flower_vae/
 │
-├── train.py                # Main entry point script
-├── requirements.txt        # Python dependencies
-├── data/                   # Dataset (downloaded automatically)
-├── checkpoints/            # Saved model weights (.pth)
-├── results/                # Generated images and loss plots
-│
+├── train.py                
+├── requirements.txt                         
+├── vae_flowers.pth/            
+├── results/               
 └── src/
-    ├── config.py           # Hyperparameters & Paths
-    ├── dataset.py          # Data loading & Split concatenation
-    ├── model.py            # VAE Neural Network Architecture
-    ├── loss.py             # ELBO Loss Function
-    └── utils.py            # Helper functions for plotting
+    ├── config.py          
+    ├── dataset.py         
+    ├── model.py           
+    ├── loss.py             
+    └── utils.py            
 ```
 
 ## 🛠️ Installation
